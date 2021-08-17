@@ -1,0 +1,228 @@
+*{
+ margin:0;
+ padding: 0;
+ font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/abcd.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 1% 3%;
+    justify-content:space-between;
+    align-items: center;
+}
+nav img{
+    width: 80px;
+    border-radius: 20px;
+}
+.nav-links{
+    flex:1;
+    text-align:center;
+
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 9px;
+    /* position: relative; */
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#f0eded;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  /*to get the contents to the center*/
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+
+
+
+.image{
+    /* height: 30%; */
+    width: 100%;
+}
+
+.image h1{
+    position: absolute;
+    top:65px;
+    left: 30%;
+    text-shadow: lightblue;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bolder;
+    border: 5px solid #d9272766;
+    background-color: #e4ea3d66;
+    border-style: hidden;
+    padding: 10px;
+    /* font-style: italic; */
+}
+
+.text h2{
+    position: absolute;
+    top: 150px;
+    right: 28%;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color:#1b1c1bab;
+}
+
+.image img{
+    height: 95vh;
+    opacity: .9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* top:0%; */
+    background-attachment:fixed;
+    background-position: center;
+}
+
+.activity{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 35px;
+    }
+    h1{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    p{
+        color: black;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 25px;
+        padding: 10px;
+    }
+    
+    .row{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .activity-col{
+        flex-basis: 31%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        background:white;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        text-align: center;
+        box-shadow: 10px 10px 5px -1px rgba(186,186,186,0.75);
+        -webkit-box-shadow: 10px 10px 5px -1px rgba(186,186,186,0.75);
+        -moz-box-shadow: 10px 10px 5px -1px rgba(186,186,186,0.75);
+    }
+    .activity-col img{
+        width: 100%;
+    }
+    h3{
+        font-weight: 700;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+.cup{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        /* height: 400px; */
+        /* display: flex;
+        flex-direction: row; */
+        /* justify-content: center; */
+    }
+.abc{
+        display: flex;
+        /* height: 500px; */
+    }
+.abc #con1{
+        flex-basis: 50%; 
+        width: 100%;
+        
+    }
+.abc #con2{
+        flex-basis: 50%;
+        width: 100%;
+        height: 550px;
+    }
+#con2 p{
+    font-size: 80px;
+    text-align: center;
+    /* margin: auto; */
+    font-weight:300;
+    color: #2170879c;
+}
+
+
+.form1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.next h2{
+    text-align: center;
+    font-family:fantasy;
+    color: lightslategrey;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: linear-gradient(rgba(205, 206, 194, 0.781),white);
+}
+.footer h4{
+    margin-bottom: 5px;
+    margin-top: 7px;
+    font-weight: 600;
+}
+
+.read{
+    /* padding:4px; */
+    text-decoration: none;
+    color:#f44336 ;
+    font-size:small;
+}
+
+.read:hover{
+    color:black;
+}
+
+
